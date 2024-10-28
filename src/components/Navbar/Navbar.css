@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 10%;
+  color: #ddd;
+  border-bottom: 2px solid #3c3c3c;
+}
+.navbar ul {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar li {
+  list-style-type: none; /* Remove the bullet point */
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo {
+  /* width: max(12vw, 120); */
+  width: 80px;
+  height: 40px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-right select {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+.nav-right button {
+  display: flex;
+  gap: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+}
